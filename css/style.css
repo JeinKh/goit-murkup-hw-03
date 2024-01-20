@@ -56,7 +56,7 @@ img{
 }
 
 .section{
-    padding: 120px 0; /*???*/
+    padding: 120px 0; 
 }
 
 .main-head{
@@ -236,19 +236,47 @@ img{
     text-align: center;
 }
 
+.port-list{
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.port-title{
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.port-list .port-item{
+    background-color: #fff;
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .port-list .port-subtitle{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .port-list .port-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 .footer{
@@ -256,10 +284,15 @@ img{
     color: #F4F4FD;
 }
 
+.footer-container{
+    padding: 101.5px 0 100px 156px;
+}
+
 .footer .foot-text{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .foot-logo{
@@ -270,6 +303,8 @@ img{
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: block;
+    margin-bottom: 17.5px;
 }
 
 .foot-accent{
