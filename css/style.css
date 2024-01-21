@@ -44,15 +44,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .head-nav-list,
 .address-list{
     gap: 40px;
-}
-
-.head-nav{
-    gap: 76px;
 }
 
 .section{
@@ -76,6 +73,7 @@ img{
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo .accent{
@@ -91,8 +89,8 @@ img{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-
+    letter-spacing: 0.02em; 
+    padding: 24px 0;
 }
 
 .head-nav .head-nav-link:hover,
@@ -148,6 +146,7 @@ img{
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    min-width: 169px;
 }
 
 .main-page-body .main-btn:hover,
@@ -172,6 +171,10 @@ img{
 .advant-list{
     display: flex;
     gap: 24px;
+}
+
+.advant-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .advant-list .advant-subtitle{
@@ -201,6 +204,11 @@ img{
 
 .team-list li{
     background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.text-container{
+    padding: 32px 0;
 }
 
 .team-title{
@@ -211,11 +219,8 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
-
-/*.team-img{
-    margin-bottom: 32px;
-}*/
 
 .team-list .name-title{
     color: #2E2F42;
@@ -224,7 +229,6 @@ img{
     line-height: 1.2; 
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
     text-align: center;
 }
 
@@ -232,7 +236,6 @@ img{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -260,23 +263,25 @@ img{
     border-bottom: 1px solid #E7E9FC;
 }
 
+.inform-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .port-list .port-subtitle{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 .port-list .port-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    margin-left: 16px;
 }
 
 .footer{
@@ -285,7 +290,7 @@ img{
 }
 
 .footer-container{
-    padding: 101.5px 0 100px 156px;
+    padding: 100px 0;
 }
 
 .footer .foot-text{
@@ -303,8 +308,8 @@ img{
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: block;
-    margin-bottom: 17.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .foot-accent{
